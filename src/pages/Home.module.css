@@ -1,0 +1,16 @@
+.container {
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 90rem;
+  /* flex */
+  display: flex;
+  gap: 4rem;
+}
+
+.posts {
+  flex: 3;
+}
+
+.sideBar {
+  flex: 1;
+}
