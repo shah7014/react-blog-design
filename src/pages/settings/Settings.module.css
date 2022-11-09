@@ -1,0 +1,85 @@
+.container {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.account {
+  flex: 9;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 28px;
+  color: rgb(217, 98, 118);
+}
+
+.accountForm {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.imgInput {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.picLabel {
+  /* padding: 0.5rem;
+  background-color: palevioletred;
+  border-radius: 50%; */
+}
+
+.picIcon {
+  font-size: 25px;
+}
+
+.input {
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.action {
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  background-color: teal;
+  padding: 0.8rem 4rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
