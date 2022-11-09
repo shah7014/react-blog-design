@@ -1,24 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./NavBar.module.css";
 
 const NavBar = (props) => {
+  const isLoggedIn = false;
+
   return (
     <ul className={`${classes.nav_list} ${props.className}`}>
       <li>
-        <a href="/">HOME</a>
+        <Link to="/">HOME</Link>
       </li>
       <li>
-        <a href="/">ABOUT</a>
+        <Link to="/">ABOUT</Link>
       </li>
       <li>
-        <a href="/">CONTACT</a>
+        <Link to="/">CONTACT</Link>
       </li>
       <li>
-        <a href="/">WRITE</a>
+        <Link to="/newpost">WRITE</Link>
       </li>
-      <li>
-        <a href="/">LOGOUT</a>
-      </li>
+      {isLoggedIn && (
+        <li>
+          <Link to="/">LOGOUT</Link>
+        </li>
+      )}
     </ul>
   );
 };

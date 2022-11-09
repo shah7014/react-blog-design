@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./Register.module.css";
 
 const Register = () => {
@@ -16,9 +17,11 @@ const Register = () => {
         <button type="submit" className={classes.btn}>
           Register
         </button>
-        <button type="submit" className={`${classes.loginBtn} ${classes.btn}`}>
-          Login
-        </button>
+        <Link to="/login" className="link">
+          <button className={`${classes.loginBtn} ${classes.btn}`}>
+            Login
+          </button>
+        </Link>
       </form>
     </div>
   );
