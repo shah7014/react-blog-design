@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is only react blog design with several pages. But still new to work on backend to make it fully functional
 
 ## Available Scripts
 
